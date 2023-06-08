@@ -2,11 +2,11 @@
 #define AOUT_PIN A0 // Arduino pin that connects to AOUT pin of moisture sensor
 LiquidCrystal_I2C lcd(0x27,16,2);
 
-float Htime;              //integer for storing high time
+int Htime;              //integer for storing high time
 
-float Ltime;                //integer for storing low time
+int Ltime;                //integer for storing low time
 
-float Ttime;            // integer for storing total time of a cycle
+int Ttime;            // integer for storing total time of a cycle
 
 float frequency;        //storing frequency
 
